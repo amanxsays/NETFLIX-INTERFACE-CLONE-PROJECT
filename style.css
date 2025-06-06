@@ -82,25 +82,15 @@ nav button {
     padding: 10px 0px 20px 0px;
 }
 
-.hero> :nth-child(4) {
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-}
-
-.hero> :nth-child(5) {
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-}
-
-.hero> :nth-child(6) {
+.hero-buttons{
+    flex-direction: column;
     font-weight: 400;
     font-size: 16px;
     text-align: center;
     padding: 20px;
+    align-items: center;
+    gap: 5px;
 }
-
 .separation {
     height: 2.6px;
     background-color: rgb(224, 58, 58);
@@ -144,7 +134,7 @@ nav button {
     width: 190px;
     border: 1px solid rgb(112, 111, 111, 0.7);
 }
-.hero input{
+.hero-buttons input{
     padding: 9px 10px;
     font-size: 12px;
     font-weight: 900;
@@ -155,12 +145,7 @@ nav button {
     border: 1px solid rgb(112, 111, 111, 0.7);
 }
 
-.hero-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
+
 .middle{
     background-color: black;
     height: 1000px;
@@ -225,6 +210,7 @@ nav button {
     width: 100%;
     zoom: 100%;
     bottom: 60px;
+    background-repeat: no-repeat;
 }
 .middle> :nth-child(5){
     color: white;
@@ -384,7 +370,8 @@ nav button {
     
 }
 .last{
-    padding: 1550px 0vh 20vh 0vh;
+    color: white;
+    padding: 1650px 0vh 10vh 0vh;
     font-family: 'Segoe UI', sans-serif;
 }
 .last :nth-child(2) :nth-child(1){
@@ -403,7 +390,8 @@ nav button {
     font-size: 14px;
 }
 .last .l{
-    padding: 10px 150px 0px 150px;
+    padding-top: 100px;
+    padding-left: 150px;
 }
 .author :nth-child(1){
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
